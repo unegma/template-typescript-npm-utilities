@@ -1,6 +1,6 @@
 {
   "name": "@unegma/template-typescript-npm-utilities",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Boilerplate for creating npm modules in Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
