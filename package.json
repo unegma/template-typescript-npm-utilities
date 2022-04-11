@@ -11,8 +11,8 @@
     "build": "tsc",
     "bump--minor": "npm version minor",
     "initial-publish": "npm publish --access public",
-    "publish": "npm publish",
-    "DEPLOY": "npm run build; npm run bump--minor; npm run publish"
+    "publish-npm": "npm publish",
+    "DEPLOY": "npm run build; npm run bump--minor; npm run publish-npm"
   },
   "repository": {
     "type": "git",
