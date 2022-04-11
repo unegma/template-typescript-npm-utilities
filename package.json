@@ -8,10 +8,10 @@
     "dist"
   ],
   "scripts": {
-    "test": "mocha ./test/index.spec.js",
     "build": "tsc",
-    "bump--patch": "npm version patch"
-    "publish": "npm publish"
+    "bump--patch": "npm version patch",
+    "publish": "npm publish",
+    "DEPLOY": "npm run bump--patch; npm run build; npm run publish"
   },
   "repository": {
     "type": "git",
