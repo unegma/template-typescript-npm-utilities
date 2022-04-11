@@ -1,0 +1,29 @@
+{
+  "name": "@unegma/template-typescript-npm-utilities",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating npm modules in Typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "mocha ./test/index.spec.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unegma/template-typescript-npm-utilities.git"
+  },
+  "keywords": [
+  ],
+  "author": "Unegma lTD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unegma/template-typescript-npm-utilities/issues"
+  },
+  "homepage": "https://github.com/unegma/template-typescript-npm-utilities#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
