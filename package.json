@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "bump--minor": "npm version minor",
-    "publish": "npm publish --access public",
+    "initial-publish": "npm publish --access public",
+    "publish": "npm publish",
     "DEPLOY": "npm run build; npm run bump--minor; npm run publish"
   },
   "repository": {
