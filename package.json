@@ -9,13 +9,13 @@
   ],
   "scripts": {
     "test": "mocha ./test/index.spec.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unegma/template-typescript-npm-utilities.git"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Unegma lTD",
   "license": "MIT",
   "bugs": {
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/unegma/template-typescript-npm-utilities#readme",
   "devDependencies": {
-  },
-  "dependencies": {
+    "typescript": "^4.6.3"
   }
 }
