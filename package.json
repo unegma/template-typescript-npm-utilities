@@ -9,7 +9,9 @@
   ],
   "scripts": {
     "test": "mocha ./test/index.spec.js",
-    "build": "tsc"
+    "build": "tsc",
+    "bump--patch": "npm version patch"
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
