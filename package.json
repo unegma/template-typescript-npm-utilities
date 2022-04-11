@@ -11,7 +11,7 @@
     "build": "tsc",
     "bump--patch": "npm version patch",
     "publish": "npm publish --access public",
-    "DEPLOY": "npm run bump--patch; npm run build; npm run publish"
+    "DEPLOY": "npm run build; npm run bump--patch; npm run publish"
   },
   "repository": {
     "type": "git",
