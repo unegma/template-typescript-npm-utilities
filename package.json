@@ -9,9 +9,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "bump--patch": "npm version patch",
+    "bump--minor": "npm version minor",
     "publish": "npm publish --access public",
-    "DEPLOY": "npm run build; npm run bump--patch; npm run publish"
+    "DEPLOY": "npm run build; npm run bump--minor; npm run publish"
   },
   "repository": {
     "type": "git",
