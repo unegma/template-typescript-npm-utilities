@@ -9,10 +9,11 @@
   ],
   "scripts": {
     "build": "tsc",
+    "bump--patch": "npm version patch",
     "bump--minor": "npm version minor",
     "initial-publish": "npm publish --access public",
     "publish-npm": "npm publish",
-    "DEPLOY": "npm run build; npm run bump--minor; npm run publish-npm"
+    "DEPLOY": "npm run build; npm run bump--patch; npm run publish-npm"
   },
   "repository": {
     "type": "git",
