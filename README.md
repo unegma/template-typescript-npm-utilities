@@ -16,3 +16,30 @@ import { ExampleClass } from "@unegma/template-typescript-npm-utilities";`
 let exampleClass = new ExampleClass('Tim');
 console.log(exampleClass.sayHello());
 ```
+
+
+
+
+## ToDo
+
+Check if tsconfig.json needs any other of these:
+
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
